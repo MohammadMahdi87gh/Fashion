@@ -1,0 +1,39 @@
+@font-face {
+  font-family: alibaba-bold;
+  src: url(/Fonts/alibaba-bold.woff2);
+}
+@font-face {
+  font-family: alibaba-black;
+  src: url(/Fonts/alibaba-black.woff2);
+}
+@font-face {
+  font-family: alibaba-regular;
+  src: url(/Fonts/alibaba-regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  direction: rtl;
+  height: 100%;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-ul ul {
+  display: none;
+}
+
+.header-ul li:hover ul {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

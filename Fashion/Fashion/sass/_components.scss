@@ -1,0 +1,154 @@
+.logo {
+    width: 130px;
+    height: 50px;
+    background-size: cover;
+    position: relative;
+    @media (max-width: 1400px) {
+        width: 120px;
+        height: 40px;
+        background-size: cover;
+        text-align: center;
+    }
+    @media (max-width: 1000px) {
+        width: 110px;
+        bottom: 10px;
+    }
+    @media (max-width: 800px) {
+        width: 90px;
+        height: 35px;
+    }
+    @media (max-width: 600px) {
+        width: 70px;
+        height: 30px;
+        bottom: 10px;
+    }
+    @media (max-width: 400px) {
+        width: 60px;
+        height: 25px;
+        bottom: 10px;
+    }
+    @media (max-width: 300px) {
+        width: 50px;
+        height: 20px;
+        bottom: 5px;
+    }
+}
+
+.main-name {
+    position: relative;
+    margin-top: 15px;
+    font-family: alibaba-black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    @media (max-width: 1400px) {
+        font-size: 13px;
+    }
+    @media (max-width: 1000px) {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    @media (max-width: 800px) {
+        font-size: 10px;
+    }
+    @media (max-width: 600px) {
+        font-size: 8px;
+    }
+    @media (max-width: 500px) {
+        bottom: 5px;
+    }
+    @media (max-width: 400px) {
+        font-size: 7px;
+        bottom: 5px;
+    }
+    @media (max-width: 300px) {
+        font-size: 6px;
+        top: 2px;
+    }
+}
+
+.sub-name {
+    position: relative;
+    font-family: alibaba-regular;
+    color: #888888;
+    font-size: 12px;
+    margin-top: 10px;
+    @media (max-width: 1400px) {
+        font-size: 11px;
+    }
+    @media (max-width: 1000px) {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    @media (max-width: 800px) {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    @media (max-width: 600px) {
+        font-size: 8px;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+    @media (max-width: 500px) {
+        bottom: 5px;
+    }
+    @media (max-width: 400px) {
+        font-size: 7px;
+        bottom: 5px;
+    }
+    @media (max-width: 300px) {
+        font-size: 6px;
+        bottom: 0px;
+    }
+}
+
+input[type="checkbox"] {
+    width: 11px;
+    height: 11px;
+    accent-color: #2D313C;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    @media (max-width: 700px) {
+        width: 9px;
+        height: 9px;
+    }
+    @media (max-width: 400px) {
+        width: 7px;
+        height: 7px;
+    }
+    @media (max-width: 300px) {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+.titles {
+    text-align: start;
+    font-family: alibaba-regular;
+    font-size: 1.5em;
+    @media (max-width: 1000px) {
+        font-size: 1em;
+    }
+    @media (max-width: 700px) {
+        font-size: .8em;
+    }
+    @media (max-width: 500px) {
+        font-size: .6em;
+    }
+    @media (max-width: 300px) {
+        font-size: .4em;
+    }
+}
+
+.maderbox {
+    display: flex;
+    gap: 5%;
+    margin-right: 6%;
+    margin-top: 5%;
+    @media (max-width: 1300px) {
+        margin-top: 6%;
+    }
+    @media (max-width: 700px) {
+        margin-top: 7%;
+    }
+}

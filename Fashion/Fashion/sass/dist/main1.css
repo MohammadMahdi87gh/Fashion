@@ -1,0 +1,1176 @@
+@font-face {
+  font-family: alibaba-bold;
+  src: url(/Fonts/alibaba-bold.woff2);
+}
+@font-face {
+  font-family: alibaba-black;
+  src: url(/Fonts/alibaba-black.woff2);
+}
+@font-face {
+  font-family: alibaba-regular;
+  src: url(/Fonts/alibaba-regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  direction: rtl;
+  height: 100%;
+}
+
+.backgrond {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .backgrond {
+    height: 99vh;
+  }
+}
+.backgrond-login {
+  width: 40%;
+  height: 90%;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .backgrond-login {
+    width: 50%;
+    height: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond-login {
+    border-radius: 5px;
+    width: 70%;
+    height: 60%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond-login {
+    border-radius: 2px;
+    height: 50%;
+  }
+}
+.backgrond-login-header {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.backgrond-login-header #icon {
+  width: 15px;
+  height: auto;
+  position: relative;
+  margin-top: 20px;
+  left: 46%;
+}
+@media (max-width: 1400px) {
+  .backgrond-login-header #icon {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond-login-header #icon {
+    width: 12px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond-login-header #icon {
+    margin-top: 15px;
+    left: 45%;
+    width: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond-login-header #icon {
+    margin-top: 15px;
+    left: 44%;
+    width: 8px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond-login-header #icon {
+    margin-top: 10px;
+    width: 7px;
+  }
+}
+.backgrond .form-login {
+  margin-top: 30px;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .backgrond .form-login {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-login {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-login {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-login {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-login {
+    margin-top: 15px;
+  }
+}
+.backgrond .form-login .label {
+  font-family: alibaba-regular;
+  font-size: 11px;
+  position: relative;
+  left: 30%;
+  margin-bottom: 7px;
+}
+@media (max-width: 1000px) {
+  .backgrond .form-login .label {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-login .label {
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-login .label {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-login .label {
+    font-size: 7px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-login .label {
+    font-size: 6px;
+  }
+}
+.backgrond .form-login .input-text {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  direction: ltr;
+  font-size: 12px;
+  color: #888888;
+}
+@media (max-width: 1000px) {
+  .backgrond .form-login .input-text {
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-login .input-text {
+    margin-bottom: 13px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-login .input-text {
+    margin-bottom: 9px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-login .input-text {
+    margin-bottom: 9px;
+    font-size: 6px;
+    padding: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-login .input-text {
+    margin-bottom: 9px;
+    font-size: 5px;
+  }
+}
+.backgrond .form-login .matn-sathe-password_hesab {
+  position: relative;
+  left: 24%;
+  bottom: 5px;
+  color: #888888;
+  font-family: alibaba-regular;
+  font-size: 10px;
+  font-weight: 100;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 22%;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 21%;
+  }
+}
+@media (max-width: 1100px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 20%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    font-size: 9px;
+    left: 23%;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 20%;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 22%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    left: 20%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    font-size: 6px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-login .matn-sathe-password_hesab {
+    font-size: 5px;
+    left: 18%;
+  }
+}
+.backgrond .form-login #sathe-password {
+  position: relative;
+  right: 32%;
+  bottom: 20px;
+  font-family: alibaba-regular;
+  font-size: 8px;
+  font-weight: 100;
+  color: #29933A;
+}
+@media (max-width: 1000px) {
+  .backgrond .form-login #sathe-password {
+    font-size: 7px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-login #sathe-password {
+    font-size: 6px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-login #sathe-password {
+    font-size: 5px;
+    bottom: 15px;
+  }
+}
+.backgrond .form-checkbox {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.backgrond .form-checkbox #matn-no-hesab {
+  font-family: alibaba-regular;
+  font-size: 11px;
+  position: relative;
+  left: 5%;
+  font-weight: 500;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    font-size: 10px;
+    left: 4%;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 5%;
+  }
+}
+@media (max-width: 1100px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 2%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 5%;
+  }
+}
+@media (max-width: 900px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 4%;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 3%;
+    font-size: 9px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    font-size: 8px;
+    left: 2%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 6%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 3%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 2%;
+    font-size: 6px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-checkbox #matn-no-hesab {
+    left: 2%;
+    font-size: 5px;
+  }
+}
+.backgrond .form-checkbox .label {
+  position: relative;
+  right: 12%;
+  font-family: alibaba-regular;
+  font-size: 10px;
+  margin-right: 5%;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-checkbox .label {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-checkbox .label {
+    font-size: 8px;
+    margin-right: 4%;
+  }
+}
+@media (max-width: 900px) {
+  .backgrond .form-checkbox .label {
+    right: 11%;
+    font-size: 7px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-checkbox .label {
+    right: 10%;
+    font-size: 7px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-checkbox .label {
+    font-size: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-checkbox .label {
+    right: 13%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-checkbox .label {
+    right: 10%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-checkbox .label {
+    right: 7%;
+    font-size: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-checkbox .label {
+    right: 8%;
+    font-size: 4px;
+  }
+}
+.backgrond .form-checkbox .checkbox-gerd {
+  position: relative;
+  left: 3%;
+  margin-right: 5%;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    margin-right: 4%;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    margin-right: 3%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    margin-right: 5%;
+  }
+}
+@media (max-width: 900px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    margin-right: 4%;
+    left: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    left: 6%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    left: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    left: 5%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-checkbox .checkbox-gerd {
+    left: 8%;
+  }
+}
+.backgrond .form-ghavanin {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-ghavanin {
+    min-height: 50px;
+  }
+}
+.backgrond .form-ghavanin #checkbox {
+  position: relative;
+  left: 15%;
+  margin-top: 10px;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 13%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-ghavanin #checkbox {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 8%;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 7%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 11%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 9%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 7%;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-ghavanin #checkbox {
+    left: 6%;
+  }
+}
+.backgrond .form-ghavanin #ghavanin {
+  position: relative;
+  left: 13%;
+  font-family: alibaba-regular;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+@media (max-width: 1300px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 11%;
+    font-size: 9px;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-ghavanin #ghavanin {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 6%;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 5%;
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 9%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 7%;
+    font-size: 7px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 7%;
+    font-size: 6px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-ghavanin #ghavanin {
+    left: 4%;
+    font-size: 5px;
+  }
+}
+.backgrond .form-ghavanin #ghavanin .a {
+  color: black;
+  font-weight: 100;
+}
+.backgrond .form-submit {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.backgrond .form-submit .input-submit {
+  width: 70%;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2D313C;
+  color: white;
+  font-family: alibaba-regular;
+  font-size: 13px;
+  margin-bottom: 15px;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .backgrond .form-submit .input-submit {
+    height: 35px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit .input-submit {
+    bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit .input-submit {
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 11px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit .input-submit {
+    height: 25px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit .input-submit {
+    height: 25px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-submit .input-submit {
+    height: 20px;
+    margin-bottom: 15px;
+    font-size: 8px;
+    border-radius: 8px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit .input-submit {
+    height: 17px;
+    font-size: 7px;
+    border-radius: 6px;
+  }
+}
+.backgrond .form-submit #hr {
+  width: 26%;
+  height: 1px;
+  background-color: #888888;
+  border: none;
+  position: relative;
+  top: 10px;
+  left: 19%;
+}
+@media (max-width: 1200px) {
+  .backgrond .form-submit #hr {
+    left: 21%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit #hr {
+    left: 21%;
+    top: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit #hr {
+    left: 21%;
+    top: -5px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit #hr {
+    width: 24%;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit #hr {
+    width: 19%;
+  }
+}
+.backgrond .form-submit #hr2 {
+  width: 26%;
+  height: 1px;
+  background-color: #888888;
+  border: none;
+  position: relative;
+  bottom: 7px;
+  right: 19%;
+}
+@media (max-width: 1200px) {
+  .backgrond .form-submit #hr2 {
+    right: 21%;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit #hr2 {
+    left: 21%;
+    bottom: 17px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit #hr2 {
+    bottom: 21px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit #hr2 {
+    width: 24%;
+    bottom: 19px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit #hr2 {
+    width: 19%;
+    bottom: 16px;
+  }
+}
+.backgrond .form-submit .ghavanin {
+  font-family: alibaba-regular;
+  color: #888888;
+  font-size: 10px;
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit .ghavanin {
+    position: relative;
+    bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit .ghavanin {
+    position: relative;
+    bottom: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit .ghavanin {
+    position: relative;
+    bottom: 11px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-submit .ghavanin {
+    position: relative;
+    bottom: 12px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit .ghavanin {
+    position: relative;
+    bottom: 11px;
+    font-weight: 500;
+    font-size: 7px;
+  }
+}
+.backgrond .form-submit #input-submit2 {
+  background-color: white;
+  color: #2D313C;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 15px;
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit #input-submit2 {
+    font-size: 11px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit #input-submit2 {
+    font-size: 10px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit #input-submit2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit #input-submit2 {
+    margin-top: 10px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit #input-submit2 {
+    margin-top: 10px;
+    font-size: 7px;
+  }
+}
+.backgrond .form-submit #icon2 {
+  width: 20px;
+  height: auto;
+  position: relative;
+  bottom: 47px;
+  left: 12%;
+}
+@media (max-width: 1400px) {
+  .backgrond .form-submit #icon2 {
+    left: 15%;
+    width: 18px;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-submit #icon2 {
+    left: 16%;
+    width: 16px;
+    bottom: 42px;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit #icon2 {
+    width: 15px;
+    bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit #icon2 {
+    width: 13px;
+    bottom: 52px;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit #icon2 {
+    width: 11px;
+    left: 17%;
+    bottom: 48px;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit #icon2 {
+    left: 15%;
+    bottom: 42px;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-submit #icon2 {
+    left: 18%;
+    width: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-submit #icon2 {
+    left: 19%;
+    width: 9px;
+    bottom: 39px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit #icon2 {
+    left: 21%;
+    width: 7px;
+    bottom: 37px;
+  }
+}
+.backgrond .form-submit .matn-sathe-password_hesab {
+  position: relative;
+  top: 3px;
+  left: 4%;
+  color: #888888;
+  font-family: alibaba-regular;
+  font-size: 11px;
+  font-weight: 500;
+}
+@media (max-width: 1400px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    font-size: 10px;
+    top: -5px;
+  }
+}
+@media (max-width: 1300px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1200px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    font-size: 9px;
+    left: 5%;
+  }
+}
+@media (max-width: 1100px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    left: 7%;
+    top: -20px;
+  }
+}
+@media (max-width: 900px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    left: 6%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    left: 9%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    left: 10%;
+    font-size: 6px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit .matn-sathe-password_hesab {
+    font-size: 5px;
+    left: 14%;
+    top: -15px;
+  }
+}
+.backgrond .form-submit .a {
+  position: relative;
+  bottom: 13px;
+  right: 9%;
+  color: #2D313C;
+  text-decoration: none;
+  font-family: alibaba-regular;
+  font-size: 10px;
+}
+@media (max-width: 1400px) {
+  .backgrond .form-submit .a {
+    font-size: 9px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .backgrond .form-submit .a {
+    font-size: 8px;
+    bottom: 18px;
+  }
+}
+@media (max-width: 1100px) {
+  .backgrond .form-submit .a {
+    font-size: 7px;
+    bottom: 17px;
+  }
+}
+@media (max-width: 1000px) {
+  .backgrond .form-submit .a {
+    right: 5%;
+    bottom: 32px;
+  }
+}
+@media (max-width: 900px) {
+  .backgrond .form-submit .a {
+    right: 8%;
+  }
+}
+@media (max-width: 800px) {
+  .backgrond .form-submit .a {
+    right: 9%;
+  }
+}
+@media (max-width: 700px) {
+  .backgrond .form-submit .a {
+    right: 12%;
+  }
+}
+@media (max-width: 600px) {
+  .backgrond .form-submit .a {
+    right: 8%;
+  }
+}
+@media (max-width: 500px) {
+  .backgrond .form-submit .a {
+    right: 10%;
+  }
+}
+@media (max-width: 400px) {
+  .backgrond .form-submit .a {
+    font-size: 6px;
+    bottom: 28px;
+  }
+}
+@media (max-width: 300px) {
+  .backgrond .form-submit .a {
+    font-size: 5px;
+    bottom: 23px;
+    right: 12%;
+  }
+}
+
+.logo {
+  width: 130px;
+  height: 50px;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 1400px) {
+  .logo {
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .logo {
+    width: 110px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .logo {
+    width: 90px;
+    height: 35px;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 70px;
+    height: 30px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 60px;
+    height: 25px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .logo {
+    width: 50px;
+    height: 20px;
+    bottom: 5px;
+  }
+}
+
+.main-name {
+  position: relative;
+  margin-top: 15px;
+  font-family: alibaba-black;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+@media (max-width: 1400px) {
+  .main-name {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1000px) {
+  .main-name {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .main-name {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .main-name {
+    font-size: 8px;
+  }
+}
+@media (max-width: 500px) {
+  .main-name {
+    bottom: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .main-name {
+    font-size: 7px;
+    bottom: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .main-name {
+    font-size: 6px;
+    top: 2px;
+  }
+}
+
+.sub-name {
+  position: relative;
+  font-family: alibaba-regular;
+  color: #888888;
+  font-size: 12px;
+  margin-top: 10px;
+}
+@media (max-width: 1400px) {
+  .sub-name {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1000px) {
+  .sub-name {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .sub-name {
+    font-size: 9px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .sub-name {
+    font-size: 8px;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 500px) {
+  .sub-name {
+    bottom: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .sub-name {
+    font-size: 7px;
+    bottom: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .sub-name {
+    font-size: 6px;
+    bottom: 0px;
+  }
+}
+
+input[type=checkbox] {
+  width: 11px;
+  height: 11px;
+  accent-color: #2D313C;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+}
+@media (max-width: 700px) {
+  input[type=checkbox] {
+    width: 9px;
+    height: 9px;
+  }
+}
+@media (max-width: 400px) {
+  input[type=checkbox] {
+    width: 7px;
+    height: 7px;
+  }
+}
+@media (max-width: 300px) {
+  input[type=checkbox] {
+    width: 6px;
+    height: 6px;
+  }
+}

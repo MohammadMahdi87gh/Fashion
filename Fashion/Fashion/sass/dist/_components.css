@@ -1,0 +1,212 @@
+.logo {
+  width: 130px;
+  height: 50px;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 1400px) {
+  .logo {
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .logo {
+    width: 110px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .logo {
+    width: 90px;
+    height: 35px;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 70px;
+    height: 30px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    width: 60px;
+    height: 25px;
+    bottom: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .logo {
+    width: 50px;
+    height: 20px;
+    bottom: 5px;
+  }
+}
+
+.main-name {
+  position: relative;
+  margin-top: 15px;
+  font-family: alibaba-black;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+@media (max-width: 1400px) {
+  .main-name {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1000px) {
+  .main-name {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 800px) {
+  .main-name {
+    font-size: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .main-name {
+    font-size: 8px;
+  }
+}
+@media (max-width: 500px) {
+  .main-name {
+    bottom: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .main-name {
+    font-size: 7px;
+    bottom: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .main-name {
+    font-size: 6px;
+    top: 2px;
+  }
+}
+
+.sub-name {
+  position: relative;
+  font-family: alibaba-regular;
+  color: #888888;
+  font-size: 12px;
+  margin-top: 10px;
+}
+@media (max-width: 1400px) {
+  .sub-name {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1000px) {
+  .sub-name {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .sub-name {
+    font-size: 9px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .sub-name {
+    font-size: 8px;
+    margin-top: 5px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 500px) {
+  .sub-name {
+    bottom: 5px;
+  }
+}
+@media (max-width: 400px) {
+  .sub-name {
+    font-size: 7px;
+    bottom: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .sub-name {
+    font-size: 6px;
+    bottom: 0px;
+  }
+}
+
+input[type=checkbox] {
+  width: 11px;
+  height: 11px;
+  accent-color: #2D313C;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+}
+@media (max-width: 700px) {
+  input[type=checkbox] {
+    width: 9px;
+    height: 9px;
+  }
+}
+@media (max-width: 400px) {
+  input[type=checkbox] {
+    width: 7px;
+    height: 7px;
+  }
+}
+@media (max-width: 300px) {
+  input[type=checkbox] {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+.titles {
+  text-align: start;
+  font-family: alibaba-regular;
+  font-size: 1.5em;
+}
+@media (max-width: 1000px) {
+  .titles {
+    font-size: 1em;
+  }
+}
+@media (max-width: 700px) {
+  .titles {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 500px) {
+  .titles {
+    font-size: 0.6em;
+  }
+}
+@media (max-width: 300px) {
+  .titles {
+    font-size: 0.4em;
+  }
+}
+
+.maderbox {
+  display: flex;
+  gap: 5%;
+  margin-right: 6%;
+  margin-top: 5%;
+}
+@media (max-width: 1300px) {
+  .maderbox {
+    margin-top: 6%;
+  }
+}
+@media (max-width: 700px) {
+  .maderbox {
+    margin-top: 7%;
+  }
+}
