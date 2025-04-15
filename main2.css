@@ -1,14 +1,14 @@
 @font-face {
   font-family: alibaba-bold;
-  src: url(/Fonts/alibaba-bold.woff2);
+  src: url(alibaba-bold.woff2);
 }
 @font-face {
   font-family: alibaba-black;
-  src: url(/Fonts/alibaba-black.woff2);
+  src: url(alibaba-black.woff2);
 }
 @font-face {
   font-family: alibaba-regular;
-  src: url(/Fonts/alibaba-regular.woff2);
+  src: url(alibaba-regular.woff2);
 }
 * {
   margin: 0;
